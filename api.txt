@@ -1,0 +1,40 @@
+Nessus Essentials : FUX3-G59S-8QWE-8XXW-MGEL
+
+shodan : kYi1mF66xTnIB3NSMT5lnuHS0BhHXweR
+
+AbuseIPDB :  00c6f60506c7e37e74b7dbb175fe43a97fd75d00038d495f21e27858c7ca83fd2759512131868991
+
+AlienVault OTX : 19de406f5e48a899e67ef99a6c9ebee232c241b0e50f3e56ae0dfd0f7fcdf49b
+
+binaryedge : 6c98e6ec-6c86-4666-89de-1639372bc5ca
+
+BuiltWith : 7cc1aa19-85c1-49b1-aea3-b3fadc8ab903
+
+censys api : f0acea33-ecc9-4c8c-90db-18b01c15e459
+censys secret : zWUKviblzMsuCQ6QCDQHDYO2uT0r4rWn
+
+IBM X-Force Exchange API key : 9cf1367b-bb14-4ce5-925d-aaeb2fc95675
+passsword :  00c25546-553b-4e79-801b-8e0e2f8ff5f5
+
+wigle : 
+Encoded for use:	QUlEMDZkMmQyZGNmMDNiOWY3M2JhM2NkMDA2NDgxYjUxYjk6MDQ2ZDI2YzM2NmU3ZTBkYTc3ZWUwY2VjNGEyZWMzNWU=
+API Name: 	AID06d2d2dcf03b9f73ba3cd006481b51b9	
+API Token: 	046d26c366e7e0da77ee0cec4a2ec35e
+
+Leak-Lookup : 5b7fe784aea00df348ec8b16d4528f97
+
+clearbit : 
+secret : sk_b94216cbdcf378151b60bbc259ecf16c
+public : pk_2816eb05fba37ae8300f1ffed1a3d72f
+
+
+fraud guard :
+Username : PLRTIRcToiYAp7M2
+Password : prpzxTeVONzcvGzg
+
+projecthoneypot : nlrqmcahrmww
+
+hunter.io : 0b9b86be91ae28a363c0e06f0383961143670fd8
+
+IntelligenceX : 1ea1e194-1d13-4ca0-97a0-d24555a9f2bb
+
