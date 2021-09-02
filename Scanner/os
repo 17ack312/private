@@ -1,0 +1,46 @@
+#PATH SPLIT
+while IFS= read -d ':' t
+do
+        path[$i]=`echo $t | grep 'bin'`
+#       echo ${path[$i]}
+((i++))
+done <<< $PATH
+
+
+#CHECKING
+check(){
+flag=0
+for i in ${path[*]}
+do
+ if [ -f $i/$1 ]
+ then
+   flag=1
+   break
+ fi
+done
+if [ $flag -eq 0 ]
+then
+ apt update && apt upgrade -y && apt autoremove -y && apt install $1 -y  
+fi
+	
+}
+
+
+#  OS ARCHITECTURE
+check neofetch
+os=(`neofetch --ascii_distro distro | cut -d ' ' -f2`)
+#echo $os
+#neofetch --stdout
+
+kali="Kali"
+andro="Android" 
+
+if [ ${os[0]} = $kali ]
+then
+echo done kali
+fi
+
+if [ ${os[0]} = $andro ]
+then
+echo done android
+fi

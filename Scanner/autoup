@@ -1,0 +1,10 @@
+
+#  AUTO UPGRADE  
+if [ -f $dir/edate ]
+then
+edate=`cat $dir/edate`
+else
+edate=' '
+fi
+
+

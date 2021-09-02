@@ -1,0 +1,44 @@
+dir=$HOME/scanner
+
+echo -e "$dir"
+if [ ! -d $dir ]
+then
+mkdir $dir
+fi
+
+cd $dir
+
+#=============================
+#SPLITTING
+#=============================
+splitter(){
+IFS="/"
+read -ra arr <<< $1
+count=0
+for i in ${arr[*]}
+do
+grep -qv '[:|=|?]' <<< $i
+if [ $? -eq 0 ]
+  then
+    if [ `echo $i | wc -c` -gt 1 ]
+    then
+	d[count++]=$i
+    fi
+  fi
+done
+}
+
+
+
+
+
+
+read -p "[>] Enter URL : " url 
+
+splitter $url
+folder=${d[0]}
+folder=$dir/$folder
+
+echo -e "$folder"
+
+

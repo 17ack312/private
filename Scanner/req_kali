@@ -1,0 +1,8 @@
+auto=(amap arp-scan cisco-torch dmitry dotdotpwn enum4linux nikto nmap parsero recon-ng sublist3r theharvester cisco-global-exploiter cisco-ocs lynis openvas yersinia beef-xss commix metasploit-framework )
+
+man=(apt2 automater ghost-phisher golismero sparta )
+
+for i in ${tools[*]}
+do
+apt search $i
+done
